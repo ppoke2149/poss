@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    color: black;
+}
+
+/* trevel */
+.home_text{
+    text-align: center;
+    align-items: center;
+    font-size: 1vw;
+    margin-top: 37px;
+}
+
+.home_contnainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+/* 외부틀 */
+.box_img > div >  img{
+    margin-top: 55px;
+    width: 57%;
+    height: auto;
+}
+/* 내부 이미지 */
+.in > img{
+    transform: translate(1%, -25%);
+    width: 38%;
+    height: auto;
+    text-align: center;
+    margin-top: -60%;
+}
+
+.home_text > div >  h3{
+    position: relative;
+    font-size: 2vw;
+    text-align: center;
+    top: -60px;
+}
+/*  */
